@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RhexApiTemplate
 Template de Apis da Rhex
 
@@ -29,3 +30,7 @@ O projeto estará estruturado da seguinte maneira:
  - Config -> Camada de configurações diversas da api;
  - Domain -> Camada de estruturação básica, contendo models e ( se necessário ) middlewares e etc.
  - Infra -> Camada de comunicação com o bd, contendo conexão, mappers ( ou migrations ) e cruds do banco;
+=======
+# RegistrationApi
+Api de cadastro de usuários 
+>>>>>>> 43b2f0e2f591c57e31cb5321606373f5d6c8be08
