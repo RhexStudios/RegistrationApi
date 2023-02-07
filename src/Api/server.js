@@ -8,5 +8,3 @@ app.use(express.json());
 app.listen(port, function () {
     console.log('rodando na porta 3333!!');
 });
-
-
