@@ -1,7 +1,7 @@
 {
-  "name": "rhextemplate",
+  "name": "RegistrationApi",
   "version": "1.0.0",
-  "description": "template para apis da rhex",
+  "description": "Api para cadastramento de usuários",
   "main": "/src/Api/server.js",
   "dependencies": {
     "abbrev": "^1.1.1",
