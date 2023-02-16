@@ -4,6 +4,7 @@ const User = require('./UserModel');
 class Admin extends User{
     static init(connection){
         super.init({
+            admId: DataTypes.STRING,
             name: DataTypes.STRING,
             email: DataTypes.STRING
         },
