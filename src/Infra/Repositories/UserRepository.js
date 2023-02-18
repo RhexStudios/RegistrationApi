@@ -40,14 +40,60 @@ const createUserCustomer = async(req,res) =>{
     }
 
 }
-
-
-
-
-
 //#endregion
 
 //#region GETs
+const getAdmins = async(req, res)=>{
+    const admins = Admin.findAll();
+
+    if (!admins) {
+        return res.sendStaus(404);
+    }
+    return res.json(admins);
+}
+
+const getCustomers = async(req, res)=>{
+    const customers = Customer.findAll();
+
+    if (!customers) {
+        return res.sendStaus(404);
+    }
+    return res.json(customers);
+}
+
+const getAdminById = async(req, res)=>{
+    const query = req.params;
+    const admins = Admin.findOne({where: admId = query});
+
+    if (!admins) {
+        return res.sendStaus(404);
+    }
+    return res.json(admins);
+}
+
+const getCustomerById = async(req, res)=>{
+    const query = req.params;
+    const customers = Customer.findOne({where: userId = query});
+
+    if (!customers) {
+        return res.sendStaus(404);
+    }
+    return res.json(customers);
+}
+
+const getAllUsers = async(req, res)=>{
+    
+    const users = User.findAll();
+
+    if (!users) {
+        return res.sendStaus(404);
+    }
+    return res.json(users);
+}
+
+
+
+
 //#endregion
 
 //#region PUTs
