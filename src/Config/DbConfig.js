@@ -4,7 +4,7 @@ module.exports = {
   port: '3333',
   username: 'root',
   password: 'ROOT',
-  database: '',
+  database: 'resgistration_rhex_teste',
   define: {
     timestamps: true,
     underscored: true,
