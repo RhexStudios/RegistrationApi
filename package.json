@@ -26,6 +26,7 @@
     "es6-weak-map": "^2.0.3",
     "escalade": "^3.1.1",
     "event-emitter": "^0.3.5",
+    "express": "^4.18.2",
     "ext": "^1.7.0",
     "fs-extra": "^9.1.0",
     "fs.realpath": "^1.0.0",
@@ -56,6 +57,7 @@
     "require-directory": "^2.1.1",
     "resolve": "^1.22.1",
     "semver": "^5.7.1",
+    "sequelize": "^6.32.1",
     "sigmund": "^1.0.1",
     "string-width": "^4.2.3",
     "strip-ansi": "^6.0.1",
@@ -74,13 +76,13 @@
   "devDependencies": {
     "dotenv": "^16.0.3",
     "mysql2": "^2.3.3",
-    "nodemon": "^2.0.20",
+    "nodemon": "^3.0.1",
     "sequelize-cli": "^6.5.2"
   },
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/Api/server.js"
   },
   "author": "",
   "license": "ISC"
